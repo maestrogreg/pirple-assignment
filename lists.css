@@ -1,0 +1,112 @@
+@media screen and (max-width: 400px){
+    section>div.picture {
+      display: none;
+    }
+  }
+  
+  html{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin:0;
+    color: #800000;
+  }
+  article{
+    font-size: 18px;
+    padding: 0 20px;
+  }
+  .lists{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  
+  }
+  .card{
+    width: 49%;
+    background-color: #ff781f;
+    margin: 0 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    color: black;
+    
+  }
+  .red{
+      text-decoration: none;
+  }
+  .picture{
+    display: flex;     
+    margin: 0;
+          
+      }
+  ul.leaf{
+        list-style-image: url('https://i.imgur.com/UpeV9is.jpg');
+      }
+  .roman {
+      list-style-type: lower-roman;
+  }
+  body {
+       background-color:teal;
+  }
+  @media screen and (max-width: 750px) and (min-width: 401px){
+    body {
+      background: #c9ffe5;
+    }
+    .set-picture{
+      height: auto ;
+      width: 200px;
+     
+    }
+  }
+  
+   p{
+       font-size: 20px;
+   }
+   ul{
+       font-size: 18px;
+   }
+    ol{
+        font-size: 18px;
+    }
+  h1{
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+        font-family: sans-serif;
+        padding: 0 0 0 20px;
+    }
+  h2{
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  h3{
+      padding: 0 0 0 20px;
+  }
+  #links{
+      border: 1px solid #808080;
+      background-color: #ff781f;
+      padding: 20px;
+      text-align:left;
+      list-style-type: none;
+      margin: 0;
+  }
+  #links li{
+      display: inline-block;
+      padding: 0 20px 0 20px;
+      font-size: 18px;
+  }
+  a{
+      text-decoration: none;
+      color:black;
+  }
+  .cursive{
+      font-family: cursive;
+  }
+  @media screen and (min-width: 750px){
+    h1, h2, h3{
+      color: white;
+    }
+  }
+  
